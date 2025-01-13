@@ -1,0 +1,74 @@
+body{
+    background-color: #020220;
+    font-family: "Lucida Calligraphy";
+    color:white;
+}
+
+h1{
+    margin-top:60px;
+    text-align: center;
+    font-size: 50px;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.list {
+    background-color: #aaadd3;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10%;
+    position: relative;
+}
+li{
+    box-sizing: border-box;
+    border-bottom: 2px solid darkslateblue;
+    height: 100px;
+    width: 580px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+    transform: scale(2);
+}
+input[placeholder]
+{
+    font-family: "Lucida Calligraphy";
+}
+
+li:last-child {
+    border-bottom: none;
+}
+input[type="text"] {
+    border: none;
+    background: #aaadd3;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 530px;
+
+}
+
+.plus{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 50%;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

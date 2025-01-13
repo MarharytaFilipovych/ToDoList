@@ -39,9 +39,14 @@ li{
 }
 
 input[type="checkbox"] {
-    margin-right: 20px;
     transform: scale(2);
-}
+    background-color: unset;
+    cursor: pointer;
+    box-sizing: content-box;
+    margin: 0 20px 0 0 ;
+    padding: 0;
+    border: none;}
+
 input[placeholder]
 {
     font-family: "Lucida Calligraphy";
@@ -50,7 +55,7 @@ input[placeholder]
 li:last-child {
     border-bottom: none;
 }
-input[type="text"] {
+.list-item input[type="text"] {
     border: none;
     background: #aaadd3;
     color: white;
@@ -71,4 +76,7 @@ input[type="text"] {
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+.plus:hover, input[type="checkbox"]:hover{
+    box-shadow: 0 0 10px #020220;
 }
